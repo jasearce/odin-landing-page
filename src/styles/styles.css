@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  color: rgb(32, 32, 32);
+}
+ul {
+  list-style: none;
+  display: flex;
+}
+li {
+  padding: 0 16px;
+}
+a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #e5e7eb;
+  font-weight: 600;
+}
+main {
+  flex: 1;
+}
+header, 
+section.hero,
+footer {
+  background-color: #1f2937;
+  color: #f5f5f5;
+}
+section,
+header,
+footer{
+  padding: 0 80px;
+}
+img {
+  width: 45%;
+  height: auto;
+  flex: 1;
+  border: 1px solid #1f2937ad;
+  border-radius: 8px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.header {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  color: #e5e7eb;
+}
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 800;
+}
+.hero {
+  display: flex;;
+  align-items: center;
+  gap: 36px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.hero-content {
+  flex: 1;
+}
+.hero-content h2{
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 0.9;
+}
+.hero-content {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.hero-content > h2, p, button {
+  margin-bottom: 16px;
+}
+button {
+  min-width: 200px;
+  padding: 14px 22px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+}
